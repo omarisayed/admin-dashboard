@@ -1,9 +1,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
-<svg fill="#fff" width="800px" height="800px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" stroke="#fff">
+<svg width="800px" height="800px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff" stroke="#fff">
 <g id="SVGRepo_bgCarrier" stroke-width="0"/>
 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
-<g id="SVGRepo_iconCarrier">
-<path d="M18 6v7c0 1.1-.9 2-2 2h-4v3l-4-3H4c-1.101 0-2-.9-2-2V6c0-1.1.899-2 2-2h12c1.1 0 2 .9 2 2z"/>
-</g>
+<g id="SVGRepo_iconCarrier"> <title>message [#fff1578]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-100.000000, -919.000000)" fill="#fff"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M56.344,759 L51.657,759 C47.428,759 44,762.260755 44,766.474225 C44,770.687695 47.428,773.948451 51.657,773.948451 L55.907,773.948451 L59.885,778.17089 C61.643,779.922848 64,778.638278 64,776.728862 L64,766.833985 C64,762.619518 60.546,759 56.318,759 L56.344,759 Z M56.172,761.094776 C59.291,761.094776 62,763.725704 62,766.833985 L62,776.728862 C62,777.093605 61.564,777.282952 61.299,777.018862 C56.718,772.15663 57.493,773.044568 56.735,771.955324 L51.657,771.955324 C48.538,771.955324 46,769.582506 46,766.474225 C46,763.365944 48.538,760.993127 51.657,760.993127 L56,760.993127 L56.172,761.094776 Z" id="message-[#fff1578]"> </path> </g> </g> </g> </g>
 </svg>
