@@ -4,9 +4,12 @@
 html{
     font-size: 62.5%;
     --font-fam: 'Roboto', sans-serif;
-    --turquoise-clr: #40E0D0;
+    --teal-clr: #008080;
     --hotpink-clr: #FF4DA6;
     --white: #FFFFFF;
+    --gray-cards: #fafaf9;
+    --gray-bg-input: #e7e5e4;
+    --gray-text: #78716c;
 }
 
 *{
@@ -26,29 +29,49 @@ html{
 
 .header{
     grid-area: header;
+    padding: 1.5em;
+    background-color: var(--gray-cards);
+}
+
+.top-header{
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 4em;
 }
 
 .search{
-
+    display: flex;
+    align-items: center;
 }
 
 .search-icon{
-
+    margin-right: 2em;
+    height: 0.6rem;
 }
 
 input{
-
+    width: min(80%, 700px);
+    border-radius: 99rem;
+    padding: 0.8em;
+    background-color: var(--gray-bg-input);
+    border: none;
+    outline: none;
 }
 
 .account{
-
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 900;
 }
 
 .notification-icon{
 
 }
 
-.header-image1{
+.top-header-image{
 
 }
 
@@ -56,11 +79,17 @@ input{
 
 }
 
-.profile-greeting{
-
+.bottom-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.header-image2{
+.profile-greeting{
+    display: flex;
+}
+
+.bottom-header-image{
 
 }
 
@@ -69,20 +98,35 @@ input{
 }
 
 .greeting{
-
+    font-size: 1.3rem;
+    font-weight: 900;
+    margin-bottom: 0.7em;
 }
 
 .name{
-
+    font-size: 2.1rem;
+    font-weight: 900;
 }
 
 .buttons{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
 
+.buttons button{
+    border: none;
+    outline: none;
+    background-color: var(--teal-clr);
+    border-radius: 99rem;
+    padding: 0.8em 2em;
+    font-size: 1.5rem;
+    color: var(--white);
 }
 
 .sidebar{
     grid-area: sidebar;
-    background-color: var(--turquoise-clr);
+    background-color: var(--teal-clr);
     padding: 3em;
 }
 
@@ -153,6 +197,7 @@ a:active {
 
 .main1{
     grid-area: main1;
+    background-color: var(--gray-bg-input);
 }
 
 .main1 div{
@@ -161,6 +206,7 @@ a:active {
 
 .main2{
     grid-area: main2;
+    background-color: var(--gray-bg-input);
 }
 
 .announcements{
