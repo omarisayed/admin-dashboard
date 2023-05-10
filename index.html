@@ -1,192 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Admin Dashboard</title>
 
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
 
-    <body>
-        <div class="container">
-            <div class="header">
-                <div class="top-header">
-                    <div class="search">
-                        <span>
-                            <img src="images/search-svgrepo-com.svg" class="icon search-icon">
-                        </span>
-                        <input type="text" name="search_text" id="search_text">
-                    </div>
+    <link rel="stylesheet" href="style.css">
 
-                    <div class="account">
-                        <span>
-                            <img src="images/notification-svgrepo-com.svg" class="icon">
-                        </span>
-                        <span class="top-header-image">
-                            <img src="">
-                        </span>
-                        <p class="acc-name">Morgan Oakley</p>
-                    </div>
-                </div>
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round"
+        rel="stylesheet">
+</head>
 
-                <div class="bottom-header">
-                    <div class="profile-greeting">
-                        <span class="bottom-header-image">
-                            <img src="">
-                        </span>
-                        <div class="greeting-name">
-                            <p class="greeting">
-                                Hi there,
-                            </p>
-                            <p class="name">
-                                Morgan Oakley (@morgan)
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="buttons">
-                        <button>New</button>
-                        <button>Upload</button>
-                        <button>Share</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="sidebar">
-
-                <h1 class="sidebar-title">
-                    <span>
-                        <img src="images/dashboard-svgrepo-com.svg" class="dashboard-icon">
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="top-header">
+                <div class="search">
+                    <span class="material-icons search-icon">
+                        search
                     </span>
-                    Dashboard
-                </h1>
+                    <input type="text" name="search_text" id="search_text">
+                </div>
 
-                <ul class="sidebar-a">
-                    <li>
-                        <a href="#" class="nav-link">
-                            <span>
-                                <img src="images/home-svgrepo-com.svg" class="icon">
-                            </span>
-                            Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link">
-                            <span>
-                                <img src="images/profile-svgrepo-com.svg" class="icon">
-                            </span>
-                            Profile
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link">
-                            <span>
-                                <img src="images/message-svgrepo-com.svg" class="icon">
-                            </span>
-                            Messsages
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link">
-                            <span>
-                                <img src="images/history-svgrepo-com.svg" class="icon">
-                            </span>
-                            History
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link">
-                            <span>
-                                <img src="images/tasks-svgrepo-com.svg" class="icon">
-                            </span>
-                            Tasks
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link">
-                            <span>
-                                <img src="images/community-svgrepo-com.svg" class="icon">
-                            </span>
-                            Communities
-                        </a>
-                    </li>
-                </ul>
-                <ul class="sidebar-b">
-                    <li>
-                        <a href="#" class="nav-link">
-                            <span>
-                                <img src="images/settings-svgrepo-com.svg" class="icon">
-                            </span>
-                            Settings
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link">
-                            <span>
-                                <img src="images/support-svgrepo-com.svg" class="icon">
-                            </span>
-                            Support
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link">
-                            <span>
-                                <img src="images/privacy-svgrepo-com.svg" class="icon">
-                            </span>
-                            Privacy
-                        </a>
-                    </li>
-                </ul>
+                <div class="account">
+                    <span class="material-icons-outlined" id="notification-icon">
+                        notifications_active
+                    </span>
+                    <span class="top-header-image">
+                        <img src="">
+                    </span>
+                    <p class="acc-name">Morgan Oakley</p>
+                </div>
             </div>
-    
-            <div class="main1">
-                <h4>Your Projects</h4>
-                <div>
-                    <h5>Super Cool Project</h5>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu turpis egestas pretium aenean. Rutrum quisque non tellus orci ac auctor augue. 
-                    </p>
-                </div>
-                <div>
-                    <h5>Less Cool Project</h5>
-                    <p>
-                        Massa placerat duis ultricies lacus sed turpis tincidunt id. Faucibus a pellentesque sit amet porttitor. Ullamcorper morbi tincidunt ornare massa eget. Elit ut aliquam purus sit amet luctus.
-                    </p>
-                </div>
-                <div>
-                    <h5>Impossible App</h5>
-                    <p>
-                        Eget felis eget nunc lobortis mattis. Leo integer malesuada nunc vel risus commodo viverra maecenas accumsan. Porta nibh venenatis cras sed felis eget. Nibh venenatis cras sed felis. Urna id volutpat lacus laoreet non curabitur gravida.  
-                    </p>
-                </div>
-                <div>
-                    <h5>Easy Peasy App</h5>
-                    <p>Ac feugiat sed lectus vestibulum. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Semper quis lectus nulla at volutpat. Netus et malesuada fames ac turpis egestas maecenas pharetra.</p>
-                </div>
-                <div>
-                    <h5>Ad Blocker</h5>
-                    <p>Iaculis eu non diam phasellus vestibulum lorem sed risus ultricies. Quis varius quam quisque id. Augue ut lectus arcu bibendum at varius vel. Dis parturient montes nascetur ridiculus. </p>
-                </div>
-                <div>
-                    <h5>Money Maker</h5>
-                    <p>Magna fermentum iaculis eu non diam. Elementum sagittis vitae et leo duis ut diam quam nulla. Sed augue lacus viverra vitae congue eu consequat. Facilisis magna etiam tempor orci eu. Velit euismod in pellentesque massa placerat duis ultricies lacus.</p>
-                </div>
-                
-            </div>
-    
-            <div class="main2">
-                <div class="announcements">
 
+            <div class="bottom-header">
+                <div class="profile-greeting">
+                    <span class="bottom-header-image">
+                        <img src="">
+                    </span>
+                    <div class="greeting-name">
+                        <p class="greeting">
+                            Hi there,
+                        </p>
+                        <p class="name">
+                            Morgan Oakley (@morgan)
+                        </p>
+                    </div>
                 </div>
-            
-    
-                <div class="trending">
-    
+
+                <div class="buttons">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
                 </div>
             </div>
         </div>
 
-    </body>
+        <div class="sidebar">
+
+            <h1 class="sidebar-title">
+                <span class="material-icons" id="dashboard-icon">
+                    dashboard
+                </span>
+                Dashboard
+            </h1>
+
+            <ul class="sidebar-a">
+                <li>
+                    <a href="#" class="nav-link">
+                        <span class="material-icons">
+                            home
+                        </span>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link">
+                        <span class="material-icons">
+                            person
+                        </span>
+                        Profile
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link">
+                        <span class="material-icons">
+                            message
+                        </span>
+                        Messsages
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link">
+                        <span class="material-icons">
+                            history
+                        </span>
+                        History
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link">
+                        <span class="material-icons">
+                            task
+                        </span>
+                        Tasks
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link">
+                        <span class="material-icons">
+                            groups
+                        </span>
+                        Communities
+                    </a>
+                </li>
+            </ul>
+            <ul class="sidebar-b">
+                <li>
+                    <a href="#" class="nav-link">
+                        <span class="material-icons">
+                            settings
+                        </span>
+                        Settings
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link">
+                        <span class="material-icons">
+                            contact_support
+                        </span>
+                        Support
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link">
+                        <span class="material-icons">
+                            verified_user
+                        </span>
+                        Privacy
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main1">
+            <h4>Your Projects</h4>
+            <div class="cards">
+                <div class="card">
+                    <h5 class="card-title">Super Cool Project</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Eu turpis egestas pretium aenean. Rutrum quisque non tellus orci
+                        ac auctor augue.
+                    </p>
+                    <div>
+                        <img src="">
+                        <img src="">
+                        <img src="">
+                    </div>
+                </div>
+                <div class="card">
+                    <h5 class="card-title">Less Cool Project</h5>
+                    <p>
+                        Massa placerat duis ultricies lacus sed turpis tincidunt id. Faucibus a pellentesque sit amet
+                        porttitor. Ullamcorper morbi tincidunt ornare massa eget. Elit ut aliquam purus sit amet luctus.
+                    </p>
+                    <div>
+                        <img src="">
+                        <img src="">
+                        <img src="">
+                    </div>
+                </div>
+                <div class="card">
+                    <h5 class="card-title">Impossible App</h5>
+                    <p>
+                        Eget felis eget nunc lobortis mattis. Leo integer malesuada nunc vel risus commodo viverra
+                        maecenas accumsan. Porta nibh venenatis cras sed felis eget. Nibh venenatis cras sed felis. Urna
+                        id volutpat lacus laoreet non curabitur gravida.
+                    </p>
+                    <div>
+                        <img src="">
+                        <img src="">
+                        <img src="">
+                    </div>
+                </div>
+                <div class="card">
+                    <h5 class="card-title">Easy Peasy App</h5>
+                    <p>
+                        Ac feugiat sed lectus vestibulum. Dis parturient montes nascetur ridiculus mus mauris vitae
+                        ultricies. Semper quis lectus nulla at volutpat. Netus et malesuada fames ac turpis egestas
+                        maecenas pharetra.
+                    </p>
+                    <div>
+                        <img src="">
+                        <img src="">
+                        <img src="">
+                    </div>
+                </div>
+                <div class="card">
+                    <h5 class="card-title">Ad Blocker</h5>
+                    <p>
+                        Iaculis eu non diam phasellus vestibulum lorem sed risus ultricies. Quis varius quam quisque id.
+                        Augue ut lectus arcu bibendum at varius vel. Dis parturient montes nascetur ridiculus.
+                    </p>
+                    <div>
+                        <img src="">
+                        <img src="">
+                        <img src="">
+                    </div>
+                </div>
+                <div class="card">
+                    <h5 class="card-title">Money Maker</h5>
+                    <p>
+                        Magna fermentum iaculis eu non diam. Elementum sagittis vitae et leo duis ut diam quam nulla.
+                        Sed augue lacus viverra vitae congue eu consequat. Facilisis magna etiam tempor orci eu.
+                    </p>
+                    <div>
+                        <img src="">
+                        <img src="">
+                        <img src="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="main2">
+            <div class="announcements">
+
+            </div>
+
+
+            <div class="trending">
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
 </html>
