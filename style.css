@@ -26,6 +26,8 @@ html{
     grid-template-rows: 1fr 4fr;
     grid-template-areas: 'sidebar header header'
                          'sidebar main1 main2';
+                         
+    height: 100vh; /*without this the navbar behaves wierd. on smaller screens, the navbar's bottom becomes big and moves content downwards.*/
 }
 
 .header{
@@ -141,6 +143,7 @@ input{
     font-size: 2.5rem;
     font-weight: bolder;
     letter-spacing: 0.2rem;
+    margin-top: 0.6em;
 }
 
 #dashboard-icon{
@@ -149,13 +152,13 @@ input{
 
 
 .sidebar-a{
-    margin-top: 3em;
+    margin-top: 6em;
     display: grid;
     gap: 2rem;
 }
 
 .sidebar-b{
-    margin-top: 6em;
+    margin-top: 7em;
     display: grid;
     gap: 2rem;
 }
