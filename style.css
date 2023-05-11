@@ -11,6 +11,7 @@ html{
     --gray-cards: #fafaf9;
     --gray-bg-input: #e7e5e4;
     --gray-text: #78716c;
+    --black-clr: #000000;
 }
 
 *{
@@ -26,7 +27,7 @@ html{
     grid-template-rows: 1fr 4fr;
     grid-template-areas: 'sidebar header header'
                          'sidebar main1 main2';
-                         
+
     height: 100vh; /*without this the navbar behaves wierd. on smaller screens, the navbar's bottom becomes big and moves content downwards.*/
 }
 
@@ -229,6 +230,17 @@ a:active {
 .card-title{
     font-size: 1.8rem;
     color: #000000;
+}
+
+.card-icons span{
+    color: var(--black-clr);
+    cursor: pointer;
+}
+
+.card-icons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
 }
 
 .main2{
