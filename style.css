@@ -227,6 +227,14 @@ a:active {
     gap: 1rem;
 }
 
+.card p{
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 5; /* number of lines to show on cards */
+   -webkit-box-orient: vertical;
+}
+
 .card-title{
     font-size: 1.8rem;
     color: #000000;
@@ -240,8 +248,14 @@ a:active {
 .card-icons{
     display: flex;
     justify-content: flex-end;
+
+    /*align-items: flex-end;*/
+    margin-top: auto; /*to add as much margin on the top of this div as there is space for. so, it will move down and add space/margin on top*/
+    
     gap: 1rem;
 }
+
+
 
 .main2{
     grid-area: main2;
