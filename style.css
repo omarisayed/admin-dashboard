@@ -250,7 +250,7 @@ a:active {
     justify-content: flex-end;
 
     /*align-items: flex-end;*/
-    margin-top: auto; /*to add as much margin on the top of this div as there is space for. so, it will move down and add space/margin on top*/
+    margin-top: auto; /*to add as much margin on the top of this div as there is space for. so, it will push itself down and add space/margin on top*/
     
     gap: 1rem;
 }
