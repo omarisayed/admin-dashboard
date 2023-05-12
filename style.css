@@ -12,6 +12,7 @@ html{
     --gray-bg-input: #e7e5e4;
     --gray-text: #78716c;
     --black-clr: #000000;
+    --gray-border: #e7e5e4;
 }
 
 *{
@@ -260,9 +261,50 @@ a:active {
 .main2{
     grid-area: main2;
     background-color: var(--gray-bg-input);
+    padding: 3em 4.5em 3em 0;
 }
 
 .announcements{
+    
+}
+
+.announcements-title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.announcements-content{
+    border-radius: 0.5rem;
+    padding: 2rem 4rem;
+    background-color: var(--gray-cards);
+
+}
+
+.announcements-content h5{
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+}
+
+.announce1 {
+    margin-top: 1.3rem;
+    padding-bottom: 2rem;
+}
+
+.announce2 {
+    border-top: 1px solid var(--gray-border);
+    border-bottom: 1px solid var(--gray-border);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.announce3 {
+    padding-top: 2rem;
+}
+
+
+.announcements-content p{
+    font-size: 1.3rem;
+    color: var(--gray-text);
 
 }
 
