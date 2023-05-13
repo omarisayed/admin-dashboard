@@ -42,8 +42,8 @@ html{
     display: grid;
     grid-template-columns: 1fr max-content;
     align-items: center;
-    margin-top: 2em;
-    margin-bottom: 4em;
+    margin-top: 0.8em;
+    margin-bottom: 3.5em;
 }
 
 .search{
@@ -68,6 +68,7 @@ input{
 .account{
     display: flex;
     align-items: center;
+    gap: 2rem;
     font-size: 1.8rem;
     font-weight: 900;
 }
@@ -76,12 +77,15 @@ input{
     font-size: 24px;
 }
 
-.top-header-image{
-
+.top-header-image img{
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
 }
 
 .acc-name{
     font-size: 1.9rem;
+    letter-spacing: 0.1rem;
 }
 
 .bottom-header{
@@ -90,27 +94,35 @@ input{
     align-items: center;
 }
 
-.profile-greeting{
-    display: flex;
+.bottom-header-image img{
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 50%;
 }
 
-.bottom-header-image{
-
+.profile-greeting{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .greeting-name{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
 }
 
 .greeting{
     font-size: 1.6rem;
     font-weight: 900;
-    margin-bottom: 0.5em;
+    letter-spacing: 0.1rem;
 }
 
 .name{
     font-size: 2.2rem;
     font-weight: 900;
+    letter-spacing: 0.1rem;
     
 }
 
@@ -127,8 +139,10 @@ input{
     border-radius: 99rem;
     padding: 0.8em 2em;
     font-size: 1.5rem;
+    font-weight: 600;
     color: var(--white);
     cursor: pointer;
+    letter-spacing: 0.1rem;
 }
 
 .sidebar{
@@ -144,8 +158,7 @@ input{
     color: var(--white);
     font-size: 2.5rem;
     font-weight: bolder;
-    letter-spacing: 0.2rem;
-    margin-top: 0.6em;
+    letter-spacing: 0.3rem;
 }
 
 #dashboard-icon{
@@ -193,8 +206,9 @@ a:active {
     align-items: center;
     gap: 2rem;
     font-size: 1.9rem;
-    font-weight: 500;
+    font-weight: 600;
     color: var(--white);
+    letter-spacing: 0.1rem;
 }
 
 .main1{
@@ -206,6 +220,7 @@ a:active {
 .main1 h4 {
     font-size: 2rem;
     margin-bottom: 1rem;
+    letter-spacing: 0.1rem;
 }
 
 .cards{
@@ -228,17 +243,18 @@ a:active {
     gap: 1rem;
 }
 
+.card-title{
+    font-size: 1.8rem;
+    color: #000000;
+    letter-spacing: 0.1rem;
+}
+
 .card p{
     overflow: hidden;
    text-overflow: ellipsis;
    display: -webkit-box;
    -webkit-line-clamp: 5; /* number of lines to show on cards */
    -webkit-box-orient: vertical;
-}
-
-.card-title{
-    font-size: 1.8rem;
-    color: #000000;
 }
 
 .card-icons span{
@@ -260,17 +276,22 @@ a:active {
 
 .main2{
     grid-area: main2;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
     background-color: var(--gray-bg-input);
     padding: 3em 4.5em 3em 0;
 }
 
 .announcements{
-    
+
 }
 
 .announcements-title{
     font-size: 2rem;
     margin-bottom: 1rem;
+    letter-spacing: 0.1rem;
 }
 
 .announcements-content{
@@ -283,10 +304,11 @@ a:active {
 .announcements-content h5{
     font-size: 1.5rem;
     margin-bottom: 0.5em;
+    letter-spacing: 0.1rem;
 }
 
 .announce1 {
-    margin-top: 1.3rem;
+    margin-top: 0.9rem;
     padding-bottom: 2rem;
 }
 
@@ -306,8 +328,58 @@ a:active {
     font-size: 1.3rem;
     color: var(--gray-text);
 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show on cards */
+    -webkit-box-orient: vertical;
+
 }
 
 .trending{
+    
+}
 
+.trending-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.trending-item{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.trending-content{
+    background-color: var(--gray-cards);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem;
+    border-radius: 0.5rem;
+    gap: 1rem;
+}
+
+.trending img{
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+}
+
+.user-name {
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+.trending-project-name {
+    font-size: 1.3rem;
+    color: var(--gray-text);
+}
+
+.trending-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
