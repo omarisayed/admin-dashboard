@@ -13,6 +13,8 @@ html{
     --gray-text: #78716c;
     --black-clr: #000000;
     --gray-border: #e7e5e4;
+    --box-shadow-header: 0px 5px 5px 0px rgba(105,105,105,0.25);
+    --box-shadow-cards: 3px 3px 5px 0px rgba(105,105,105,0.25);
 }
 
 *{
@@ -36,6 +38,10 @@ html{
     grid-area: header;
     padding: 1.9em 4.5em;
     background-color: var(--gray-cards);
+
+    box-shadow: var(--box-shadow-header);
+
+    z-index: 999;
 }
 
 .top-header{
@@ -237,7 +243,7 @@ a:active {
     border-radius: 0.5rem;
     background-color: var(--gray-cards);
     border-left: 10px solid var(--hotpink-clr);
-
+    box-shadow: var(--box-shadow-cards);
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -298,6 +304,7 @@ a:active {
     border-radius: 0.5rem;
     padding: 2rem 4rem;
     background-color: var(--gray-cards);
+    box-shadow: var(--box-shadow-cards);
 
 }
 
@@ -359,6 +366,7 @@ a:active {
     padding: 2rem 4rem;
     border-radius: 0.5rem;
     gap: 1rem;
+    box-shadow: var(--box-shadow-cards);
 }
 
 .trending img{
